@@ -1,0 +1,12 @@
+Source: ros-jade-m4atx-battery-monitor
+Section: misc
+Priority: extra
+Maintainer: Russell Toris <rctoris@wpi.edu>
+Build-Depends: debhelper (>= 9.0.0), libusb-dev, ros-jade-catkin, ros-jade-message-generation, ros-jade-roscpp, ros-jade-std-msgs
+Homepage: http://ros.org/wiki/m4atx_battery_monitor
+Standards-Version: 3.9.2
+
+Package: ros-jade-m4atx-battery-monitor
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, espeak, libusb-dev, ros-jade-message-runtime, ros-jade-roscpp, ros-jade-std-msgs
+Description: Battery Monitor for the M4-ATX Power Module
